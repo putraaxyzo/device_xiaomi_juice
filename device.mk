@@ -262,3 +262,16 @@ PRODUCT_PACKAGES += \
     TelecommResCommon \
     TelephonyResCommon \
     WifiResCommon
+
+# Vulkan
+PRODUCT_PACKAGES += \
+    libvulkan
+
+# Doze
+PRODUCT_PACKAGES += \
+    XiaomiDoze
+
+#  Parts
+PRODUCT_PACKAGES += \
+    XiaomiParts
+

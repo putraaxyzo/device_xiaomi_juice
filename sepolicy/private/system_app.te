@@ -1,7 +1,6 @@
-allow system_app vendor_default_prop:file { getattr open read };
-allow system_app vendor_default_prop:file {map};
-allow system_app sysfs_kgsl:file r_file_perms;
-get_prop(system_app, vendor_camera_prop);
-
 allow system_app sysfs_battery_supply:dir search;
 allow system_app sysfs_battery_supply:file { read open getattr };
+
+allow system_app sysfs_leds:dir search;
+allow system_app vibrator_dev:dir search;
+allow system_app vibrator_dev:file rw_file_perms;
