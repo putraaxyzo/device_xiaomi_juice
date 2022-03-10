@@ -10,7 +10,7 @@ $(call inherit-product, device/xiaomi/juice/device.mk)
 $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
 # Raven Stuff .
-RAVEN_BUILD_TYPE := UNOFFICIAL
+RAVEN_BUILD_TYPE := OFFICIAL
 TARGET_GAPPS_ARCH := arm64
 TARGET_INCLUDE_PIXEL_CHARGER := true
 TARGET_BOOT_ANIMATION_RES := 1080
