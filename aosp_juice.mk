@@ -11,6 +11,7 @@ $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
 # Raven Stuff .
 RAVEN_BUILD_TYPE := OFFICIAL
+RAVEN_MAINTAINER := putrazxyo13
 TARGET_GAPPS_ARCH := arm64
 TARGET_INCLUDE_PIXEL_CHARGER := true
 TARGET_BOOT_ANIMATION_RES := 1080
