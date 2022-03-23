@@ -8,6 +8,7 @@ $(call inherit-product, device/xiaomi/juice/device.mk)
 
 # Inherit some common Cherish-OS stuff.
 $(call inherit-product, vendor/cherish/config/common_full_phone.mk)
+WITH_GMS := true
 TARGET_GAPPS_ARCH := arm64
 TARGET_INCLUDE_PIXEL_CHARGER := true
 TARGET_BOOT_ANIMATION_RES := 1080
